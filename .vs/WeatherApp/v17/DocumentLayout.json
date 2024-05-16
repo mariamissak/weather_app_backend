@@ -3,48 +3,52 @@
   "WorkspaceRootPath": "D:\\repos\\Reusable Project\\WeatherApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\controllers\\editusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\editusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\models\\thresholds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\models\\thresholds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|D:\\repos\\Reusable Project\\WeatherApp\\weatherapp\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|d:\\repos\\reusable project\\weatherapp\\weatherapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CAC80F1-5524-4EEC-A6D5-CC1F52C85498}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,46 +70,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Controllers\\RegisterController.cs",
+              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "WeatherApp\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAkwH8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T20:44:23.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserInfoController.cs",
               "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\UserInfoController.cs",
               "RelativeDocumentMoniker": "WeatherApp\\Controllers\\UserInfoController.cs",
               "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\UserInfoController.cs",
               "RelativeToolTip": "WeatherApp\\Controllers\\UserInfoController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAQwAwAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T21:16:53.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "WeatherApp\\Controllers\\LoginController.cs",
               "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\LoginController.cs",
               "RelativeToolTip": "WeatherApp\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAkwGIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T20:17:28.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "WeatherApp\\Models\\Login.cs",
-              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\Login.cs",
-              "RelativeToolTip": "WeatherApp\\Models\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "DocumentIndex": 0,
+              "Title": "EditUserController.cs",
+              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\EditUserController.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Controllers\\EditUserController.cs",
+              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\EditUserController.cs",
+              "RelativeToolTip": "WeatherApp\\Controllers\\EditUserController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:52:38.885Z",
+              "WhenOpened": "2024-05-15T21:02:46.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WeatherApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:38:43.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "WeatherApp\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwCYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T20:26:17.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Models\\User.cs",
+              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\User.cs",
+              "RelativeToolTip": "WeatherApp\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:39:29.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "WeatherApp\\Properties\\AssemblyInfo.cs",
@@ -113,64 +167,36 @@
               "RelativeToolTip": "WeatherApp\\Properties\\AssemblyInfo.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:48:52.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "WeatherApp\\Models\\User.cs",
-              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\User.cs",
-              "RelativeToolTip": "WeatherApp\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:39:29.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WebApiConfig.cs",
-              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\App_Start\\WebApiConfig.cs",
-              "RelativeDocumentMoniker": "WeatherApp\\App_Start\\WebApiConfig.cs",
-              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\App_Start\\WebApiConfig.cs",
-              "RelativeToolTip": "WeatherApp\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T20:26:17.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "WeatherApp\\Controllers\\RegisterController.cs",
-              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "WeatherApp\\Controllers\\RegisterController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T20:44:23.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T19:48:52.283Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EditUserController.cs",
-              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\EditUserController.cs",
-              "RelativeDocumentMoniker": "WeatherApp\\Controllers\\EditUserController.cs",
-              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\EditUserController.cs",
-              "RelativeToolTip": "WeatherApp\\Controllers\\EditUserController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwDUAAAAJAAAA",
+              "Title": "Thresholds.cs",
+              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\Thresholds.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Models\\Thresholds.cs",
+              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\Thresholds.cs",
+              "RelativeToolTip": "WeatherApp\\Models\\Thresholds.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAcwAkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T21:02:46.95Z",
+              "WhenOpened": "2024-05-15T23:55:33.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Models\\Login.cs",
+              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Models\\Login.cs",
+              "RelativeToolTip": "WeatherApp\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:52:38.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Web.config",
               "RelativeDocumentMoniker": "WeatherApp\\Web.config",
@@ -183,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "WeatherApp\\Controllers\\ValuesController.cs",
@@ -191,21 +217,7 @@
               "RelativeToolTip": "WeatherApp\\Controllers\\ValuesController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:38:46.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WeatherApp\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\repos\\Reusable Project\\WeatherApp\\WeatherApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WeatherApp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:38:43.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T19:38:46.906Z"
             }
           ]
         }

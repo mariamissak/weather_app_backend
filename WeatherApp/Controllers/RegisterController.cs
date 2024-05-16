@@ -35,13 +35,40 @@ namespace WeatherApp.Controllers
                     }
 
                     // User doesn't exist, insert new user record
-                    using (var cmdInsert = new SqlCommand("INSERT INTO Registration (name, email, password, age, gender) VALUES (@Name, @Email, @Password, @Age, @Gender); SELECT SCOPE_IDENTITY()", conn))
+                    using (var cmdInsert = new SqlCommand("INSERT INTO Registration (name, email, password, age, gender, temperature_thres, humidity_thres, pm25_thres, pm10_thres, co_thres, pressure_mb_thres, visibility_km_thres, wind_kph_thres, uv_thres) VALUES (@Name, @Email, @Password, @Age, @Gender, @TemperatureThres, @HumidityThres, @Pm25Thres, @Pm10Thres, @CoThres, @PressureMbThres, @VisibilityKmThres, @WindKphThres, @UvThres); SELECT SCOPE_IDENTITY()", conn))
                     {
                         cmdInsert.Parameters.AddWithValue("@Name", user.name);
                         cmdInsert.Parameters.AddWithValue("@Email", user.email);
                         cmdInsert.Parameters.AddWithValue("@Password", user.password);
                         cmdInsert.Parameters.AddWithValue("@Age", user.age);
                         cmdInsert.Parameters.AddWithValue("@Gender", user.gender);
+
+                        // Add threshold values if provided
+                        if (user.thresholds != null)
+                        {
+                            cmdInsert.Parameters.AddWithValue("@TemperatureThres", user.thresholds.temperature_thres);
+                            cmdInsert.Parameters.AddWithValue("@HumidityThres", user.thresholds.humidity_thres);
+                            cmdInsert.Parameters.AddWithValue("@Pm25Thres", user.thresholds.pm25_thres);
+                            cmdInsert.Parameters.AddWithValue("@Pm10Thres", user.thresholds.pm10_thres);
+                            cmdInsert.Parameters.AddWithValue("@CoThres", user.thresholds.co_thres);
+                            cmdInsert.Parameters.AddWithValue("@PressureMbThres", user.thresholds.pressure_mb_thres);
+                            cmdInsert.Parameters.AddWithValue("@VisibilityKmThres", user.thresholds.visibility_km_thres);
+                            cmdInsert.Parameters.AddWithValue("@WindKphThres", user.thresholds.wind_kph_thres);
+                            cmdInsert.Parameters.AddWithValue("@UvThres", user.thresholds.uv_thres);
+                        }
+                        else
+                        {
+                            // If threshold values not provided, set them to zeros
+                            cmdInsert.Parameters.AddWithValue("@TemperatureThres", 0);
+                            cmdInsert.Parameters.AddWithValue("@HumidityThres", 0);
+                            cmdInsert.Parameters.AddWithValue("@Pm25Thres", 0);
+                            cmdInsert.Parameters.AddWithValue("@Pm10Thres", 0);
+                            cmdInsert.Parameters.AddWithValue("@CoThres", 0);
+                            cmdInsert.Parameters.AddWithValue("@PressureMbThres", 0);
+                            cmdInsert.Parameters.AddWithValue("@VisibilityKmThres", 0);
+                            cmdInsert.Parameters.AddWithValue("@WindKphThres", 0);
+                            cmdInsert.Parameters.AddWithValue("@UvThres", 0);
+                        }
 
                         // Execute the insert command and get the newly inserted user's ID
                         int userId = Convert.ToInt32(cmdInsert.ExecuteScalar());
@@ -65,6 +92,20 @@ namespace WeatherApp.Controllers
                                         gender = reader["gender"].ToString()[0]
                                     };
 
+                                    // Add threshold values to the user object
+                                    registeredUser.thresholds = new Thresholds
+                                    {
+                                        temperature_thres = Convert.ToSingle(reader["temperature_thres"]),
+                                        humidity_thres = Convert.ToSingle(reader["humidity_thres"]),
+                                        pm25_thres = Convert.ToSingle(reader["pm25_thres"]),
+                                        pm10_thres = Convert.ToSingle(reader["pm10_thres"]),
+                                        co_thres = Convert.ToSingle(reader["co_thres"]),
+                                        pressure_mb_thres = Convert.ToSingle(reader["pressure_mb_thres"]),
+                                        visibility_km_thres = Convert.ToSingle(reader["visibility_km_thres"]),
+                                        wind_kph_thres = Convert.ToSingle(reader["wind_kph_thres"]),
+                                        uv_thres = Convert.ToInt32(reader["uv_thres"])
+                                    };
+
                                     // Return the registered user details along with a message
                                     return Ok(new { Message = "User account created", User = registeredUser });
                                 }
@@ -84,5 +125,7 @@ namespace WeatherApp.Controllers
                 return InternalServerError(ex);
             }
         }
+
+
     }
 }

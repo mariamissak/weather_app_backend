@@ -13,5 +13,6 @@ namespace WeatherApp.Models
         public string password { get; set; }
         public int age { get; set; }
         public char gender { get; set; }
+        public Thresholds thresholds { get; set; }
     }
 }
